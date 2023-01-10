@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary">
+
+    <LinearLayout
+        android:paddingRight="12dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, Ainun Yahya !"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/avatar_image"/>
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

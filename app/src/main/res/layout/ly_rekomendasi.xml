@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="4dp">
+
+        <TextView
+            android:paddingTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rekomendasi"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/btnSeeAll"
+            android:paddingTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See all"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tawar Sandwich"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rotiputih"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/roti_1" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cake Tape"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Cake dengan cita rasa tape manis"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="30.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cake_1" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Warmball Isi 5"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Roti isi 5 buttercream messes"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="16.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/roti_11" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pia Kacang Hijau"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pia crispy original rasa tausa"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/pie_1" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tawar Kentang"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Tawar Kentang"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/tawar_6" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sisir Butter"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Roti sisir dengan polesan butter dan tabun"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/roti_16" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <com.example.proti.widget.Wrap_element
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:elevation="8dp"
+            android:background="@drawable/efek_shadow">
+            <com.example.proti.widget.Card_element
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_panjang"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sisir Butter"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:text="Roti sisir dengan polesan butter dan tabun"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <TextView
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13.000"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textSize="10dp"/>
+                        <ImageView
+                            android:paddingLeft="2dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_love"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="8dp">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/roti_16" />
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="25dp">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="60dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:background="@drawable/btn_add"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Add"
+                                android:textAllCaps="false"
+                                android:textColor="@color/primary"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.example.proti.widget.Card_element>
+        </com.example.proti.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020466920570",
+    "project_id": "proti-b1754",
+    "storage_bucket": "proti-b1754.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020466920570:android:23b76a3973b891c3870fc3",
+        "android_client_info": {
+          "package_name": "com.example.proti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020466920570-it08j9hiq7qeeg58idgp2map7qpdbvb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKY6BzYw01DwREURU72TK3ty2eiToiyow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020466920570-it08j9hiq7qeeg58idgp2map7qpdbvb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

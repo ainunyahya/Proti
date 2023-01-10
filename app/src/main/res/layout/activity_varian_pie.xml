@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".AppsActivity.VarianPie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/primary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:paddingRight="12dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/btnReturn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector_back_1"/>
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pie Pastry Donut"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pencarian"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:background="@color/primary">
+
+        <com.example.proti.widget.Search_bar
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/bg_search"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="8dp">
+            <TextView
+                android:paddingTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Search"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="14dp"/>
+            <ImageView
+                android:layout_marginRight="12dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_search"/>
+        </com.example.proti.widget.Search_bar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.example.proti.widget.Wrap_element
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:elevation="8dp"
+                    android:background="@drawable/efek_shadow">
+                    <com.example.proti.widget.Card_element
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_card_panjang"
+                        android:padding="10dp">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pia Kacang Hijau"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="16dp"/>
+                                <TextView
+                                    android:layout_width="240dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pia crispy original rasa tausa"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="10dp"/>
+                                <TextView
+                                    android:paddingTop="3dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5.000"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="10dp"/>
+                                <ImageView
+                                    android:paddingLeft="2dp"
+                                    android:layout_marginTop="40dp"
+                                    android:layout_width="24dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/vector_love"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        app:cardCornerRadius="8dp">
+
+                                        <ImageView
+                                            android:layout_width="110dp"
+                                            android:layout_height="100dp"
+                                            android:scaleType="centerCrop"
+                                            android:src="@drawable/pie_1" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="46dp"
+                                    android:layout_marginLeft="25dp">
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_width="60dp"
+                                        android:layout_height="20dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="6dp"
+                                        android:background="@drawable/btn_add"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:text="Add"
+                                        android:textAllCaps="false"
+                                        android:textColor="@color/primary"
+                                        android:textSize="10dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </com.example.proti.widget.Card_element>
+                </com.example.proti.widget.Wrap_element>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navBarku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/buttom_navbar"/>
+
+
+</RelativeLayout>

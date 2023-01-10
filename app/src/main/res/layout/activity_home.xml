@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".AppsActivity.Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/primary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include layout="@layout/widget_header_toolbar"/>
+
+
+        </LinearLayout>
+
+    </Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pencarian"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:background="@color/primary">
+
+        <com.example.proti.widget.Search_bar
+            android:id="@+id/pencariBar"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/bg_search"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="8dp">
+            <TextView
+                android:paddingTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Search"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="14dp"/>
+            <ImageView
+                android:layout_marginRight="12dp"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_search"/>
+        </com.example.proti.widget.Search_bar>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/pencarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/ly_rekomendasi" />
+            <include layout="@layout/ly_kategori" />
+            <include layout="@layout/ly_scolldown" />
+        </LinearLayout>
+    </ScrollView>
+    
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navBarku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/buttom_navbar"/>
+
+
+</RelativeLayout>
